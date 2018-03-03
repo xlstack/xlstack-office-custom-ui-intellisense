@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="3.3">
+    <id>XLStack.Office.CustomUI.Intellisense.Office2007</id>
+    <version>1.0.1</version>
+    <title>XLStack Office Custom UI Intellisense for Office 2007</title>
+    <owners>xlstack,caioproiete</owners>
+    <authors>caioproiete</authors>
+    <projectUrl>https://github.com/xlstack/xlstack-office-custom-ui-intellisense</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/xlstack/xlstack-office-custom-ui-intellisense/master/nuget/office-2007/logo.png</iconUrl>
+    <licenseUrl>https://github.com/xlstack/xlstack-office-custom-ui-intellisense/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds IntelliSense in Visual Studio when editing XML files in the Office 2007 Fluent User Interface XML format</description>
+    <summary>IntelliSense for the Office 2007 Fluent User Interface XML format inside Visual Studio</summary>
+    <copyright>Copyright (C) 2018 Caio Proiete and Contributors</copyright>
+    <language>en-US</language>
+    <tags>xlstack office intellisense customui fluentui office2007 xsd schema xml ribbon ctp excel exceldna excel-dna</tags>
+    <contentFiles>
+      <files include="any/any/XLStack.Office.CustomUI.Office2007.xsd" buildAction="None" copyToOutput="false" flatten="true" />
+    </contentFiles>
+    <developmentDependency>true</developmentDependency>
+  </metadata>
+  <files>
+    <file src="../../src/office-2007/XLStack.Office.CustomUI.Office2007.xsd" target="content" />
+    <file src="../../src/office-2007/XLStack.Office.CustomUI.Office2007.xsd" target="contentFiles/any/any" />
+  </files>
+</package>
